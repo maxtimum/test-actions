@@ -28,6 +28,6 @@ jobs:
           rmfp.encode('unicode-escape')
           with open(rmfp, 'r') as f:
               for line in f:
-                  name = rstrip(line) + 'learned about GitHub Actions!'
+                  name = line.rstrip() + 'learned about GitHub Actions!'
                   print(name)
         shell: python

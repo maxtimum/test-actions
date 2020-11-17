@@ -28,5 +28,5 @@ jobs:
           rmfp.encode('unicode-escape')
           with open(rmfp, 'r') as f:
               for line in f:
-                  print(line, end='')
+                  print(line, 'learned about GitHub Actions!', end='')
         shell: python

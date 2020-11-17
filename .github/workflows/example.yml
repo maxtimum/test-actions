@@ -26,6 +26,6 @@ jobs:
       - name: Run a one-line script
         run: |
           import os
-          rmfp = os.getenv($GITHUB_WORKSPACE) + '/README.md'
+          rmfp = os.getenv('$GITHUB_WORKSPACE') + '/README.md'
           print(rmfp)
         shell: python

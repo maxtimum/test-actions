@@ -24,6 +24,8 @@ jobs:
       - name: Run a one-line script
         run: |
           import os
-          rmfp = os.getenv('GITHUB_WORKSPACE') + '/README.md'
-          print(rmfp)
+          rmfp = os.getenv('GITHUB_WORKSPACE') + '\users.txt'
+          with open(rmfp, r) as f:
+              for line in f:
+                  print(f)
         shell: python

@@ -26,7 +26,7 @@ jobs:
           import os
           rmfp = os.getenv('GITHUB_WORKSPACE') + '\\users.txt'
           rmfp.encode('unicode-escape')
-          with open(rmfp, r) as f:
+          with open(rmfp, 'r') as f:
               for line in f:
                   print(f)
         shell: python

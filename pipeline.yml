@@ -1,6 +1,10 @@
+project_dependencies: 
+  - python
+  - g++
+  - java
 package_manager: pip
 package_manager_flags: -I
-dependencies:
+package_dependencies:
   - fake_dependency0
   - fake_dependency1
   - fake_dependency2

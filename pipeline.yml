@@ -1,6 +1,3 @@
-project_dependencies: 
-  - python
-  - java
 package_manager: pip
 package_manager_flags: -I
 package_dependencies:

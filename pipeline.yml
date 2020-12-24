@@ -1,5 +1,5 @@
 package_manager: pip
-dependencies: |
+dependencies:
   - dep0
   - dep1
   - dep2

@@ -1,5 +1,5 @@
 package_manager: pip
-package_manager_flags: -v
+package_manager_flags: -i
 dependencies:
   - fake_dependency0
   - fake_dependency1

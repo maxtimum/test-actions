@@ -1,4 +1,6 @@
 package_manager: pip
 dependencies: |
-  - pyyaml
+  - dep0
+  - dep1
+  - dep2
 warning_severity: high

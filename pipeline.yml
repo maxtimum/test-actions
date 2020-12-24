@@ -1,4 +1,5 @@
 package_manager: pip
+package_manager_flags: -m
 dependencies:
   - dep0
   - dep1

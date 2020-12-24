@@ -1,6 +1,5 @@
 project_dependencies: 
   - python
-  - g++
   - java
 package_manager: pip
 package_manager_flags: -I
